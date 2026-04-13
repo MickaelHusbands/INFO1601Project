@@ -1,0 +1,46 @@
+[debug] [2026-04-13T00:56:06.672Z] ----------------------------------------------------------------------
+[debug] [2026-04-13T00:56:06.674Z] Command:       C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2026-04-13T00:56:06.674Z] CLI Version:   15.14.0
+[debug] [2026-04-13T00:56:06.674Z] Platform:      win32
+[debug] [2026-04-13T00:56:06.674Z] Node Version:  v20.9.0
+[debug] [2026-04-13T00:56:06.674Z] Time:          Sun Apr 12 2026 20:56:06 GMT-0400 (Bolivia Time)
+[debug] [2026-04-13T00:56:06.674Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-04-13T00:56:07.943Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-04-13T00:56:07.943Z] > authorizing via signed-in user (mickaelhusbands63@gmail.com)
+[debug] [2026-04-13T00:56:07.944Z] [iam] checking project info1601project-d6de8 for permissions ["firebase.projects.get"]
+[debug] [2026-04-13T00:56:07.945Z] Checked if tokens are valid: true, expires at: 1776044548074
+[debug] [2026-04-13T00:56:07.945Z] Checked if tokens are valid: true, expires at: 1776044548074
+[debug] [2026-04-13T00:56:07.946Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/info1601project-d6de8:testIamPermissions [none]
+[debug] [2026-04-13T00:56:07.946Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/info1601project-d6de8:testIamPermissions  x-goog-user-project=info1601project-d6de8
+[debug] [2026-04-13T00:56:07.946Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/info1601project-d6de8:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-04-13T00:56:08.312Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/info1601project-d6de8:testIamPermissions 200
+[debug] [2026-04-13T00:56:08.312Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/info1601project-d6de8:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-04-13T00:56:08.312Z] Checked if tokens are valid: true, expires at: 1776044548074
+[debug] [2026-04-13T00:56:08.312Z] Checked if tokens are valid: true, expires at: 1776044548074
+[debug] [2026-04-13T00:56:08.313Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/info1601project-d6de8 [none]
+[debug] [2026-04-13T00:56:08.475Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/info1601project-d6de8 200
+[debug] [2026-04-13T00:56:08.475Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/info1601project-d6de8 {"projectNumber":"665943691969","projectId":"info1601project-d6de8","lifecycleState":"ACTIVE","name":"INFO1601Project","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-04-12T23:47:54.526Z"}
+[info] 
+[info] === Serving from 'C:\Users\Kryst'...
+[info] 
+[debug] [2026-04-13T00:56:08.477Z] Checked if tokens are valid: true, expires at: 1776044548074
+[debug] [2026-04-13T00:56:08.477Z] Checked if tokens are valid: true, expires at: 1776044548074
+[debug] [2026-04-13T00:56:08.477Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/info1601project-d6de8/sites 
+[debug] [2026-04-13T00:56:09.367Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/info1601project-d6de8/sites 200
+[debug] [2026-04-13T00:56:09.367Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/info1601project-d6de8/sites {"sites":[{"name":"projects/info1601project-d6de8/sites/info1601project-d6de8","defaultUrl":"https://info1601project-d6de8.web.app","appId":"1:665943691969:web:162518980ccf78bf15fa40","type":"DEFAULT_SITE"}]}
+[debug] [2026-04-13T00:56:09.367Z] Checked if tokens are valid: true, expires at: 1776044548074
+[debug] [2026-04-13T00:56:09.368Z] Checked if tokens are valid: true, expires at: 1776044548074
+[debug] [2026-04-13T00:56:09.368Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/info1601project-d6de8/webApps/1:665943691969:web:162518980ccf78bf15fa40/config [none]
+[debug] [2026-04-13T00:56:09.932Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/info1601project-d6de8/webApps/1:665943691969:web:162518980ccf78bf15fa40/config 200
+[debug] [2026-04-13T00:56:09.932Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/info1601project-d6de8/webApps/1:665943691969:web:162518980ccf78bf15fa40/config {"projectId":"info1601project-d6de8","appId":"1:665943691969:web:162518980ccf78bf15fa40","storageBucket":"info1601project-d6de8.firebasestorage.app","apiKey":"AIzaSyAbxzBoS1L3Hzu91ONszyr8lO3raHc8PPo","authDomain":"info1601project-d6de8.firebaseapp.com","messagingSenderId":"665943691969","projectNumber":"665943691969","version":"2"}
+[debug] [2026-04-13T00:56:09.954Z] Checked if tokens are valid: true, expires at: 1776044548074
+[debug] [2026-04-13T00:56:09.954Z] Checked if tokens are valid: true, expires at: 1776044548074
+[debug] [2026-04-13T00:56:09.954Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/info1601project-d6de8 [none]
+[debug] [2026-04-13T00:56:10.240Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/info1601project-d6de8 200
+[debug] [2026-04-13T00:56:10.241Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/info1601project-d6de8 {"projectId":"info1601project-d6de8","projectNumber":"665943691969","displayName":"INFO1601Project","name":"projects/info1601project-d6de8","resources":{"hostingSite":"info1601project-d6de8"},"state":"ACTIVE","etag":"1_c750a39b-f7c9-4c47-bebd-268270b9bcc2"}
+[info] i  hosting[info1601project-d6de8]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[info1601project-d6de8]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [13/Apr/2026:00:56:16 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Apr/2026:00:56:16 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Apr/2026:00:56:16 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Apr/2026:00:56:16 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Apr/2026:00:56:16 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Apr/2026:00:56:16 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\""}}
